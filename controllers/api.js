@@ -43,15 +43,15 @@ module.exports = {
   createRepo : (req,res) => {
     request.post(
       {
-        method: 'POST',
+        // method: 'POST',
         uri: `https://api.github.com/user/repos?access_token=${process.env.access_token}`,
+        json: {
+          "name" : req.body.name
+        },
         headers: {
           'User-Agent' : 'uber-fox',
           'Accept': 'application/vnd.github.mercy-preview+json',
           'content-type': 'application/json'
-        },
-        json: {
-          "name" : req.body.name
         }
       },
       function (error, response, body) {
