@@ -1,6 +1,6 @@
 # twotter
 
-List of book routes
+List of routes
 
 Route | HTTP | Description
 ------------ | ------------- | --------------|
