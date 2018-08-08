@@ -12,7 +12,7 @@ Route | HTTP | Description | Attributes
 
 ## Usage
 create .env file contain
-access_token = ""
+access_token = "set your github access token here"
 
 With only npm:
 ```
