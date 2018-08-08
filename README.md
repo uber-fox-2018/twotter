@@ -12,7 +12,7 @@ Route | HTTP | Description | Attributes
 
 ## Usage
 create .env file contain
-access_token = "7cb27cc4a3f4d58d28ffc179c5769c4c276d3fc4"
+access_token = ""
 
 With only npm:
 ```
